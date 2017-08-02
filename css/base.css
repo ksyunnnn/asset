@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*
+event pageを作成するためのCSS
+body/aなどのタグ全体に直接指定しないこと
+*/
+.container {
+  margin: 0 auto;
+}
+
+/**********************************
+common function
+**********************************/
+body {
+  font-family: 游ゴシック;
+  font-size: 15px;
+  max-width: 900px;
+}
+body a {
+  text-decoration: none;
+}
+body a:after {
+  font-family: FontAwesome;
+  content: "\f08e";
+  padding: .3em;
+}
+body img {
+  width: 100%;
+}
+body li {
+  list-style: none;
+}
+body pre {
+  overflow-x: auto;
+  margin: 0;
+  padding: .6em 1.2em;
+  border: 0;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  white-space: pre;
+  word-wrap: normal;
+  font-size: .8em;
+  font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
+  line-height: 1.2;
+}
+body b.red {
+  color: red;
+}
+body b.green {
+  color: green;
+}
+body b.blue {
+  color: blue;
+}
+body section {
+  margin: 0;
+  padding: .6em 1.2em;
+  border: 0;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  font-size: .8em;
+  line-height: 1.5;
+}
+body i {
+  padding: .3em;
+}
